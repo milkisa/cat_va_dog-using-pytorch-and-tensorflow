@@ -2,29 +2,35 @@
 ![output](https://raw.githubusercontent.com/milkisa/cam/main/images/Capture3.PNG)
 
 
-# Class Activation Map on rock peper scisor dataset
+# image classification between cat and dog using both pytorch and tensorflow 2 using resnet and inception
 
-Class activation maps are a simple technique to get the discriminative image regions used by a CNN to identify a specific class in the image. In other words, a class activation map (CAM) lets us see which regions in the image were relevant to this class.
-
-## Installation
+PyTorch vs TensorFlow: What’s the difference? Both are open source Python libraries that use graphs to perform numerical computation on data.
+Which library to use depends on your own style and preference, your data and model, and your project goal.
+## Pre- requests:
+- python
+- numpy
+- tensorflow
+- pytorch
 
 
 
 ```bash
 pip install tensorflow
+pip install torch
+pip install torchvision
 ```
 ## Dataset
- download the rock peper dataset from http://www.laurencemoroney.com/rock-paper-scissors-dataset/.
+ download the rdatasets from https://www.kaggle.com/c/dogs-vs-cats/data
 
 ## Usage
 i used rock paper scissors dataset for visualization.
-run the the file named cam.ipynb
+I have used inception for the tensorflow file and resnet for pytorch file.
 ```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
-
+Don't forget to rename the dataset path in the codes.
 
 
